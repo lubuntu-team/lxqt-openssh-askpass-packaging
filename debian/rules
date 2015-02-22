@@ -3,12 +3,8 @@
 
 
 %:
-	dh ${@} --buildsystem cmake --parallel
+	dh ${@} --buildsystem cmake --parallel --dbg-package=lxqt-openssh-askpass-dbg
 
 
 override_dh_auto_install:
 	dh_auto_install -- DESTDIR=$(CURDIR)/debian/lxqt-openssh-askpass
-
-override_dh_strip:
-	dh_strip --dbg-package=lxqt-openssh-askpass-dbg
-
