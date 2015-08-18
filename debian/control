@@ -26,13 +26,13 @@ Depends: ${misc:Depends},
          ${shlibs:Depends},
 Description: OpenSSH user/password GUI dialog for LXQt
  This module handles openssh security password access for LXQt. The openssh
- askpass module, will perform security tast over scale access privi‐ legies.
+ askpass module, will perform security tast over scale access privilegies.
  .
  The LXQt modules are desktop independent tools, and operate as daemons for the
  local user for desktop specific operations.
  .
  LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt
- technologies, ships several core desktop components, all  of  which are
+ technologies, ships several core desktop components, all of which are
  optional:
  .
   * Panel
@@ -44,8 +44,8 @@ Description: OpenSSH user/password GUI dialog for LXQt
   * SSH password access (this)
   * Display manager handler
  .
- These  components  perform  similar  actions to those available in other
- desktop environments, and their names are self-descriptive.  They are usually
+ These components perform similar actions to those available in other
+ desktop environments, and their names are self-descriptive. They are usually
  not launched by hand but automatically, when choosing a LXQt session in the
  Display Manager.
 
@@ -63,7 +63,7 @@ Description: OpenSSH user/password GUI dialog for LXQt (debug symbols)
  local user for desktop specific operations.
  .
  LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt
- technologies, ships several core desktop components, all  of  which are
+ technologies, ships several core desktop components, all of which are
  optional:
  .
   * Panel
@@ -75,8 +75,8 @@ Description: OpenSSH user/password GUI dialog for LXQt (debug symbols)
   * SSH password access (this)
   * Display manager handler
  .
- These  components  perform  similar  actions to those available in other
- desktop environments, and their names are self-descriptive.  They are usually
+ These components perform similar actions to those available in other
+ desktop environments, and their names are self-descriptive. They are usually
  not launched by hand but automatically, when choosing a LXQt session in the
  Display Manager.
  .
