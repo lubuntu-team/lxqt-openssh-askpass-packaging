@@ -1,0 +1,39 @@
+Description: <short summary of the patch>
+ TODO: Put a short summary on the line above and replace this paragraph
+ with a longer explanation of this change. Complete the meta-information
+ with other relevant fields (see below for details). To make it easier, the
+ information below has been extracted from the changelog. Adjust it or drop
+ it.
+ .
+ lxqt-openssh-askpass (0.9.0+20150817-1) unstable; urgency=low
+ .
+   * Initial release (Closes: #747603)
+Author: ChangZhuo Chen (陳昌倬) <czchen@gmail.com>
+Bug-Debian: https://bugs.debian.org/747603
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: <YYYY-MM-DD>
+
+--- lxqt-openssh-askpass-0.9.0+20150817.orig/man/lxqt-openssh-askpass.1
++++ lxqt-openssh-askpass-0.9.0+20150817/man/lxqt-openssh-askpass.1
+@@ -30,8 +30,8 @@ environments, and their names are self-d
+ by hand but automatically, when choosing a \fBLXQt\fR session in the Display
+ Manager.
+ .SH BEHAVIOR
+-The module detected on shares privilege access, and maintain a security dialog 
+-that ask for the user's key need for access over another machine host.
++The module detected on shares privilege access, and maintain a security dialog
++ that ask for the user's key need for access over another machine host.
+ .P
+ This module are very early stage, and not enabled by default, so you must added a env 
+ by the \fBlxqt\-settings\fR application as \fISSH_ASKPASS=\fR 
