@@ -8,7 +8,7 @@ Description: <short summary of the patch>
  lxqt-openssh-askpass (0.9.0+20150817-1) unstable; urgency=low
  .
    * Initial release (Closes: #747603)
-Author: ChangZhuo Chen (陳昌倬) <czchen@gmail.com>
+Author: ChangZhuo Chen (陳昌倬) <czchen@debian.org>
 Bug-Debian: https://bugs.debian.org/747603
 
 ---
