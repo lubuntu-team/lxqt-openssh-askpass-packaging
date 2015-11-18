@@ -1,3 +1,15 @@
+lxqt-openssh-askpass (0.10.0-2) unstable; urgency=medium
+
+  * Merge branch 'debian/experimental' into debian/sid
+  * New upstream release
+  * Set minimum versions for libqtxdg and liblxqt
+  * Fixed debian/docs (README -> README.md)
+  * Removed typo.patch, applied upstream
+  * Added upstream signing key and used it in watch file
+  * Fixed VCS-Fields
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 19 Nov 2015 00:09:26 +0100
+
 lxqt-openssh-askpass (0.9.0+20150817-2) unstable; urgency=medium
 
   * Fixed mail address of czchen
