@@ -50,35 +50,3 @@ Description: OpenSSH user/password GUI dialog for LXQt
  not launched by hand but automatically, when choosing a LXQt session in the
  Display Manager.
 
-Package: lxqt-openssh-askpass-dbg
-Architecture: any
-Section: debug
-Priority: extra
-Depends: ${misc:Depends},
-         lxqt-openssh-askpass (= ${binary:Version}),
-Description: OpenSSH user/password GUI dialog for LXQt (debug symbols)
- This module handles openssh security password access for LXQt. The openssh
- askpass module, will perform security tast over scale access privi‐ legies.
- .
- The LXQt modules are desktop independent tools, and operate as daemons for the
- local user for desktop specific operations.
- .
- LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt
- technologies, ships several core desktop components, all of which are
- optional:
- .
-  * Panel
-  * Desktop
-  * Application launcher
-  * Settings center
-  * Session handler
-  * Polkit handler
-  * SSH password access (this)
-  * Display manager handler
- .
- These components perform similar actions to those available in other
- desktop environments, and their names are self-descriptive. They are usually
- not launched by hand but automatically, when choosing a LXQt session in the
- Display Manager.
- .
- This package contain the debugging symbols.
