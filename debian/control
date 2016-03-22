@@ -23,6 +23,7 @@ Homepage: https://github.com/lxde/lxqt-openssh-askpass
 
 Package: lxqt-openssh-askpass
 Architecture: any
+Provides: ssh-askpass
 Depends: ${misc:Depends},
          ${shlibs:Depends},
 Description: OpenSSH user/password GUI dialog for LXQt
