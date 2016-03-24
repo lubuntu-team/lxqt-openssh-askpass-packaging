@@ -1,4 +1,4 @@
-lxqt-openssh-askpass (0.10.0-3.1) unstable; urgency=low
+lxqt-openssh-askpass (0.10.0-4) unstable; urgency=low
 
   * Adding "Provides: ssh-askpass". Closes: #818684
 
