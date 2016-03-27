@@ -1,3 +1,12 @@
+lxqt-openssh-askpass (0.10.0-5) unstable; urgency=medium
+
+  * Bump standards to 3.9.7
+  * Added Yuan CHAO to copyright
+  * Use secured VCS-links
+  * Added hardening += all to rules
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 27 Mar 2016 12:02:04 +0200
+
 lxqt-openssh-askpass (0.10.0-4) unstable; urgency=low
 
   * Adding "Provides: ssh-askpass". Closes: #818684
