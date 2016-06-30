@@ -1,0 +1,27 @@
+#!/bin/sh
+# postinst script for #PACKAGE#
+#
+# see: dh_installdeb(1)
+
+set -e
+
+case "$1" in
+    configure)
+        update-alternatives --install /usr/bin/ssh-askpass ssh-askpass /usr/bin/lxqt-openssh-askpass 15 \
+            --slave /usr/share/man/man1/ssh-askpass.1.gz ssh-askpass.1.gz /usr/share/man/man1/lxqt-openssh-askpass.1.gz
+        # invalid alternatives are automatically reconfigured
+        ls -L /etc/alternatives/ssh-askpass >/dev/null 2>&1 || update-alternatives --auto ssh-askpass
+    ;;
+
+    abort-upgrade|abort-remove|abort-deconfigure)
+    ;;
+
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+#DEBHELPER#
+
+exit 0
