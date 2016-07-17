@@ -9,17 +9,20 @@ Section: x11
 Priority: optional
 Build-Depends: debhelper (>= 9),
                cmake (>= 3.0.2),
+               gcc (>= 4:6),
+               g++ (>= 4:6),
                libkf5windowsystem-dev,
-               liblxqt0-dev (>= 0.10.0),
+               liblxqt0-dev (>= 0.10.96~),
                libqt5x11extras5-dev,
-               libqt5xdg-dev (>= 1.3.0),
+               libqt5xdg-dev (>= 1.3.1~),
+               libqt5xdgiconloader-dev (>= 1.3.1~),
                libx11-dev,
                pkg-config,
                qttools5-dev,
-               qttools5-dev-tools,
+               qttools5-dev-tools
 Standards-Version: 3.9.8
-Vcs-Browser: https://anonscm.debian.org/git/pkg-lxqt/lxqt-openssh-askpass.git/?h=debian/sid
-Vcs-Git: https://anonscm.debian.org/git/pkg-lxqt/lxqt-openssh-askpass.git -b debian/sid
+Vcs-Browser: https://anonscm.debian.org/git/pkg-lxqt/lxqt-openssh-askpass.git/?h=debian/experimental
+Vcs-Git: https://anonscm.debian.org/git/pkg-lxqt/lxqt-openssh-askpass.git -b debian/experimental
 Homepage: https://github.com/lxde/lxqt-openssh-askpass
 
 Package: lxqt-openssh-askpass
@@ -27,6 +30,7 @@ Architecture: any
 Provides: ssh-askpass
 Depends: ${misc:Depends},
          ${shlibs:Depends},
+Recommends: lxqt-openssh-askpass-l10n
 Description: OpenSSH user/password GUI dialog for LXQt
  This module handles openssh security password access for LXQt. The openssh
  askpass module, will perform security tast over scale access privilegies.

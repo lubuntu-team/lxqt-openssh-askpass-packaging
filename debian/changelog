@@ -1,3 +1,17 @@
+lxqt-openssh-askpass (0.10.0-7) experimental; urgency=medium
+
+  * Preparing the upcoming release, switch to experimental
+  * Added build dependency libqt5xdgiconloader-dev, set
+    minimum versions
+  * Added Recommends lxqt-notificationd-l10n
+  * Fixed copyright Format field
+  * Bumped copyright years
+  * Added translation control to rules
+  * Set CMAKE_BUILD_TYPE=RelWithDebInfo
+  * Exported LC_ALL=C.UTF-8, make builds reproducible
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 17 Jul 2016 20:16:25 +0200
+
 lxqt-openssh-askpass (0.10.0-6) unstable; urgency=medium
 
   * Added debian/{postinst,prerm} (Closes: 827912)
