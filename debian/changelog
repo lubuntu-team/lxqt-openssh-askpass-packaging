@@ -1,5 +1,6 @@
-lxqt-openssh-askpass (0.10.0-7) experimental; urgency=medium
+lxqt-openssh-askpass (0.10.96~8-ga3b393f-1) experimental; urgency=medium
 
+  * Cherry-picking upstream version 0.10.96~8-ga3b393f.
   * Preparing the upcoming release, switch to experimental
   * Added build dependency libqt5xdgiconloader-dev, set
     minimum versions
