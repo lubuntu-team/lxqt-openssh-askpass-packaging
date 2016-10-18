@@ -1,7 +1,7 @@
 /*.debhelper
 /*.log
 /*.substvars
+/debhelper-build-stamp
 /files
 
 /lxqt-openssh-askpass/
-/lxqt-openssh-askpass-dbg/
