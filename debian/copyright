@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: lxqt-openssh-askpass
-Source: https://github.com/lxde/lxqt-openssh-askpass
+Source: https://github.com/lxqt/lxqt-openssh-askpass
 
 Files: *
 Copyright: 2012-2017 LXQt team
@@ -8,7 +8,7 @@ Copyright: 2012-2017 LXQt team
 License: LGPL-2.1+
 
 Files: debian/*
-Copyright: 2014-2017 Alf Gaida <agaida@siduction.org>
+Copyright: 2014-2018 Alf Gaida <agaida@siduction.org>
            2015      ChangZhuo Chen (陳昌倬) <czchen@debian.org>
            2015      Andrew Lee (李健秋) <ajqlee@debian.org>
            2015      Yukiharu YABUKI <yyabuki@debian.org>

@@ -7,16 +7,16 @@ Uploaders: Alf Gaida <agaida@siduction.org>,
            Yuan CHAO <yuanchao@gmail.com>
 Section: x11
 Priority: optional
-Build-Depends: debhelper (>= 10),
+Build-Depends: debhelper (>= 11~),
                libkf5windowsystem-dev,
                liblxqt0-dev (>= 0.12.0),
                libqt5svg5-dev,
                libqt5x11extras5-dev,
                libx11-dev
-Standards-Version: 4.1.2
-Vcs-Browser: https://anonscm.debian.org/cgit/pkg-lxqt/lxqt-openssh-askpass.git
-Vcs-Git: https://anonscm.debian.org/git/pkg-lxqt/lxqt-openssh-askpass.git
-Homepage: https://github.com/lxde/lxqt-openssh-askpass
+Standards-Version: 4.1.4
+Vcs-Browser: https://salsa.debian.org/lxqt-team/lxqt-openssh-askpass
+Vcs-Git: https://salsa.debian.org/lxqt-team/lxqt-openssh-askpass.git
+Homepage: https://github.com/lxqt/lxqt-openssh-askpass
 
 Package: lxqt-openssh-askpass
 Architecture: any
