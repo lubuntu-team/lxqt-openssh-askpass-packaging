@@ -54,3 +54,14 @@ Description: OpenSSH user/password GUI dialog for LXQt
  desktop environments, and their names are self-descriptive. They are usually
  not launched by hand but automatically, when choosing a LXQt session in the
  Display Manager.
+
+Package: lxqt-openssh-askpass-l10n
+Architecture: all
+Multi-Arch: foreign
+Section: localization
+Depends: ${misc:Depends},
+         qttranslations5-l10n
+Breaks: lxqt-openssh-askpass (<< 0.11.0)
+Replaces: lxqt-openssh-askpass (<< 0.11.0)
+Description: Language package for lxqt-openssh-askpass
+ This package contains the l10n files needed by lxqt-openssh-askpass.
