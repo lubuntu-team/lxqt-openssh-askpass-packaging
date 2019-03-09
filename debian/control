@@ -24,11 +24,8 @@ Homepage: https://github.com/lxqt/lxqt-openssh-askpass
 Package: lxqt-openssh-askpass
 Architecture: any
 Provides: ssh-askpass
-Depends: ${misc:Depends},
-         ${shlibs:Depends},
-Recommends: lxqt-openssh-askpass-l10n,
-            lxqt-qtplugin,
-            lxqt-session
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: lxqt-openssh-askpass-l10n, lxqt-qtplugin, lxqt-session
 Suggests: lxqt | lxqt-core
 Description: OpenSSH user/password GUI dialog for LXQt
  This module handles openssh security password access for LXQt. The openssh
@@ -59,8 +56,7 @@ Package: lxqt-openssh-askpass-l10n
 Architecture: all
 Multi-Arch: foreign
 Section: localization
-Depends: ${misc:Depends},
-         qttranslations5-l10n
+Depends: qttranslations5-l10n, ${misc:Depends}
 Breaks: lxqt-openssh-askpass (<< 0.11.0)
 Replaces: lxqt-openssh-askpass (<< 0.11.0)
 Description: Language package for lxqt-openssh-askpass
