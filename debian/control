@@ -8,7 +8,7 @@ Uploaders: Alf Gaida <agaida@siduction.org>,
            Yuan CHAO <yuanchao@gmail.com>
 Section: x11
 Priority: optional
-Build-Depends: debhelper (>= 12),
+Build-Depends: debhelper-compat (= 12),
                libkf5windowsystem-dev,
                liblxqt0-dev (>= 0.14.1~),
                libqt5svg5-dev,
