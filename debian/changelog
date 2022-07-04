@@ -5,6 +5,7 @@ lxqt-openssh-askpass (1.1.0-0ubuntu1~ppa1) jammy; urgency=medium
   * Bumped Standards-Version to 4.6.1, no changes necessary.
   * Removed obsolete "-Wl,--as-needed" linker flag.
   * Created debian/upstream/metadata file.
+  * Added "Rules-Requires-Root: no" to debian/control.
 
  -- Aaron Rainbolt <arraybolt3@gmail.com>  Mon, 04 Jul 2022 09:35:47 -0500
 
