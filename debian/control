@@ -15,8 +15,8 @@ Build-Depends: debhelper-compat (= 13),
                libqt5x11extras5-dev,
                libx11-dev
 Standards-Version: 4.6.1
-Vcs-Browser: https://phab.lubuntu.me/source/lxqt-openssh-askpass/
-Vcs-Git: https://phab.lubuntu.me/source/lxqt-openssh-askpass.git
+Vcs-Browser: https://git.lubuntu.me/Lubuntu/lxqt-openssh-askpass-packaging
+Vcs-Git: https://git.lubuntu.me/Lubuntu/lxqt-openssh-askpass-packaging.git
 XS-Debian-Vcs-Browser: https://salsa.debian.org/lxqt-team/lxqt-openssh-askpass
 XS-Debian-Vcs-Git: https://salsa.debian.org/lxqt-team/lxqt-openssh-askpass.git
 Homepage: https://github.com/lxqt/lxqt-openssh-askpass
