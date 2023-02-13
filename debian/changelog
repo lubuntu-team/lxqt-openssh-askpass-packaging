@@ -5,6 +5,7 @@ lxqt-openssh-askpass (1.2.0-1ubuntu1) lunar; urgency=medium
   * Added 'Rules-Requires-Root: no' to debian/control.
   * Removed obsolete '-Wl,--as-needed' linker flag.
   * Updated copyright file.
+  * Removed trailing whitespace from changelog.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Sun, 12 Feb 2023 21:53:32 -0600
 
@@ -262,4 +263,3 @@ lxqt-openssh-askpass (0.9.0+20150817-1) unstable; urgency=low
   * Initial release (Closes: #747603)
 
  -- ChangZhuo Chen (陳昌倬) <czchen@gmail.com>  Mon, 17 Aug 2015 23:40:43 +0800
-
