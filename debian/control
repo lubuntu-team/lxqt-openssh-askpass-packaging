@@ -1,5 +1,6 @@
 Source: lxqt-openssh-askpass
-Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
 Uploaders: Alf Gaida <agaida@siduction.org>,
            ChangZhuo Chen (陳昌倬) <czchen@debian.org>,
            Andrew Lee (李健秋) <ajqlee@debian.org>,
@@ -9,24 +10,22 @@ Section: x11
 Priority: optional
 Build-Depends: debhelper-compat (= 13),
                libkf5windowsystem-dev,
-               liblxqt1-dev (>= 1.1.0~),
+               liblxqt1-dev (>= 1.2.0),
                libqt5svg5-dev,
                libqt5x11extras5-dev,
                libx11-dev
 Standards-Version: 4.6.1
-Vcs-Browser: https://salsa.debian.org/lxqt-team/lxqt-openssh-askpass
-Vcs-Git: https://salsa.debian.org/lxqt-team/lxqt-openssh-askpass.git
+Vcs-Browser: https://git.lubuntu.me/Lubuntu/lxqt-openssh-askpass-packaging
+Vcs-Git: https://git.lubuntu.me/Lubuntu/lxqt-openssh-askpass-packaging.git
+XS-Debian-Vcs-Browser: https://salsa.debian.org/lxqt-team/lxqt-openssh-askpass
+XS-Debian-Vcs-Git: https://salsa.debian.org/lxqt-team/lxqt-openssh-askpass.git
 Homepage: https://github.com/lxqt/lxqt-openssh-askpass
-Rules-Requires-Root: no
 
 Package: lxqt-openssh-askpass
 Architecture: any
 Provides: ssh-askpass
-Depends: ${misc:Depends},
-         ${shlibs:Depends}
-Recommends: lxqt-openssh-askpass-l10n,
-            lxqt-qtplugin,
-            lxqt-session
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: lxqt-openssh-askpass-l10n, lxqt-qtplugin, lxqt-session
 Suggests: lxqt | lxqt-core
 Description: OpenSSH user/password GUI dialog for LXQt
  This module handles openssh security password access for LXQt. The openssh
@@ -57,8 +56,7 @@ Package: lxqt-openssh-askpass-l10n
 Architecture: all
 Multi-Arch: foreign
 Section: localization
-Depends: ${misc:Depends},
-         qttranslations5-l10n
+Depends: qttranslations5-l10n, ${misc:Depends}
 Description: Language package for lxqt-openssh-askpass
  The l10n files for lxqt-openssh-askpass.
  .
