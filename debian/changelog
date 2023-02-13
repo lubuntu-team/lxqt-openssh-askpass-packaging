@@ -4,6 +4,7 @@ lxqt-openssh-askpass (1.2.0-1ubuntu1) lunar; urgency=medium
   * Bumped Standards-Version to 4.6.2, no changes necessary.
   * Added 'Rules-Requires-Root: no' to debian/control.
   * Removed obsolete '-Wl,--as-needed' linker flag.
+  * Updated copyright file.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Sun, 12 Feb 2023 21:53:32 -0600
 
