@@ -6,6 +6,7 @@ lxqt-openssh-askpass (1.2.0-1ubuntu1) lunar; urgency=medium
   * Removed obsolete '-Wl,--as-needed' linker flag.
   * Updated copyright file.
   * Removed trailing whitespace from changelog.
+  * Created debian/upstream/metadata.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Sun, 12 Feb 2023 21:53:32 -0600
 
