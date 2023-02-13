@@ -3,8 +3,8 @@ Upstream-Name: lxqt-openssh-askpass
 Source: https://github.com/lxqt/lxqt-openssh-askpass
 
 Files: *
-Copyright: 2012-2022, LXQt team
-           2010-2012, Razor team
+Copyright: 2012-2021 LXQt team
+           2010-2012 Razor team
 License: LGPL-2.1+
 
 Files: debian/*

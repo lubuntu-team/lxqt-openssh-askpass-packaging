@@ -1,40 +1,33 @@
-lxqt-openssh-askpass (1.2.0-0ubuntu1) lunar; urgency=medium
+lxqt-openssh-askpass (1.2.0-1) unstable; urgency=medium
 
   * New upstream release.
-  * Fix the watch file, for real this time.
-  * Bump build dependencies in debian/control.
-  * Bump Standards-version to 4.6.1, no changes needed.
-  * Lubuntuify the package slightly, to make debhelper happy.
-  * Briefly update the copyright file.
+  * Add Rules-Requires-Root: no.
+  * Remove unnecessary --fail-missing in d/rules.
+  * Remove unnecessary -Wl,--as-needed in d/rules.
+  * Update d/watch for GitHub.
+  * Add Repository-Browse in d/upstream/metadata.
+  * Use LF in d/upstream/signing-key.asc.
+  * Change indent for d/control.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 18 Nov 2022 17:28:15 -0600
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Thu, 15 Dec 2022 00:19:20 +0800
 
-lxqt-openssh-askpass (1.1.0-0ubuntu1) kinetic; urgency=medium
+lxqt-openssh-askpass (1.1.0-2) unstable; urgency=medium
+
+  * Merge to unstable.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sat, 19 Nov 2022 15:45:13 +0800
+
+lxqt-openssh-askpass (1.1.0-1) experimental; urgency=medium
 
   * New upstream release.
   * Bump build dependencies.
-  * Remove old Breaks/Replaces, since we're past the LTS.
+  * Bump Standards-version to 4.6.1, no changes needed.
+  * Bump debhelper compat to 13, no changes needed.
+  * Run wrap-and-sort.
+  * Remove some old Breaks/Replaces.
+  * Grab some useful changes from Ubuntu so we can sync.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 01 Jun 2022 16:08:44 -0500
-
-lxqt-openssh-askpass (0.17.0-0ubuntu1) impish; urgency=medium
-
-  * New upstream release 0.17.0
-  * Update debian/control
-    - Bump Standards-Version to 4.5.1
-    - Use liblxqt0-dev 0.17.0
-    - Extend lxqt-openssh-askpass-l10n package description
-  * Update debian/copyright
-
- -- apt-ghetto <apt-ghetto@protonmail.com>  Tue, 17 Aug 2021 15:43:58 +0200
-
-lxqt-openssh-askpass (0.16.0-1ubuntu1) hirsute; urgency=medium
-
-  * New upstream version.
-  * Bump debhelper-compat reuqirement to 13.
-  * Fixed manpages.
-
- -- Raman Sarda <theloudspeaker@disroot.org>  Mon, 22 Feb 2021 00:54:39 +0530
+ -- Simon Quigley <tsimonq2@debian.org>  Wed, 13 Jul 2022 19:27:49 -0500
 
 lxqt-openssh-askpass (0.16.0-1) unstable; urgency=medium
 
@@ -48,36 +41,12 @@ lxqt-openssh-askpass (0.16.0-1) unstable; urgency=medium
 
  -- Andrew Lee (李健秋) <ajqlee@debian.org>  Thu, 07 Jan 2021 16:22:33 +0800
 
-lxqt-openssh-askpass (0.15.0-0ubuntu1) groovy; urgency=medium
-
-  * New upstream release.
-    - Update upstream signing key.
-    - Update LXQt build depends.
-  * Bump Standards-version to 4.5.0, no changes needed.
-  * Migrate to debhelper-compat.
-
- -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 04 Jun 2020 14:06:26 -0500
-
-lxqt-openssh-askpass (0.14.1-1ubuntu1) focal; urgency=low
-
-  * Merge from Debian unstable.  Remaining changes:
-    - Update build depends.
-
- -- Raman Sarda <theloudspeaker@lubuntu.me>  Fri, 31 Jan 2020 16:57:22 +0530
-
 lxqt-openssh-askpass (0.14.1-1) unstable; urgency=medium
 
   * Cherry-picking new upstream version 0.14.1.
   * Bumped minimum version liblxqt0-dev (>= 0.14.1~)
 
  -- Alf Gaida <agaida@siduction.org>  Tue, 26 Feb 2019 02:01:54 +0100
-
-lxqt-openssh-askpass (0.14.1-0ubuntu1) disco; urgency=medium
-
-  * New upstream release.
-  * Run wrap-and-sort.
-
- -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 09 Mar 2019 13:10:40 -0600
 
 lxqt-openssh-askpass (0.14.0-1) unstable; urgency=medium
 
@@ -93,16 +62,6 @@ lxqt-openssh-askpass (0.14.0-1) unstable; urgency=medium
 
  -- Alf Gaida <agaida@siduction.org>  Sun, 27 Jan 2019 18:25:40 +0100
 
-lxqt-openssh-askpass (0.14.0-0ubuntu1) disco; urgency=medium
-
-  * New upstream release.
-    - Bump build dependencies.
-  * Bump Standards-version to 4.3.0, no changes needed.
-  * Bump debhelper compat to 12, no changes needed.
-  * Add new lxqt-openssh-askpass-l10n package.
-
- -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 26 Jan 2019 00:27:56 -0600
-
 lxqt-openssh-askpass (0.13.0-1) unstable; urgency=medium
 
   * Cherry-picking new upstream version 0.13.0.
@@ -110,15 +69,6 @@ lxqt-openssh-askpass (0.13.0-1) unstable; urgency=medium
   * Bumped year in copyright
 
  -- Alf Gaida <agaida@siduction.org>  Thu, 24 May 2018 22:11:57 +0200
-
-lxqt-openssh-askpass (0.13.0-0ubuntu1) cosmic; urgency=medium
-
-  * New upstream release.
-  * Update Vcs-* and Maintainer to Lubuntu values.
-  * Update build dependencies.
-  * Update copyright.
-
- -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 22 May 2018 23:41:00 -0500
 
 lxqt-openssh-askpass (0.12.0-4) unstable; urgency=medium
 
@@ -252,4 +202,3 @@ lxqt-openssh-askpass (0.9.0+20150817-1) unstable; urgency=low
   * Initial release (Closes: #747603)
 
  -- ChangZhuo Chen (陳昌倬) <czchen@gmail.com>  Mon, 17 Aug 2015 23:40:43 +0800
-
