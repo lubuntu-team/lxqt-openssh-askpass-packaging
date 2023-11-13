@@ -2,6 +2,7 @@ lxqt-openssh-askpass (1.4.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Bump build dependencies.
+  * Bump copyright year.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 12 Nov 2023 18:34:23 -0600
 
