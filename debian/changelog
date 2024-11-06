@@ -1,3 +1,9 @@
+lxqt-openssh-askpass (2.1.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 05 Nov 2024 18:18:13 -0600
+
 lxqt-openssh-askpass (2.0.1-0ubuntu1) oracular; urgency=medium
 
   * New upstream release.
