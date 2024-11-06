@@ -10,9 +10,9 @@ Section: x11
 Priority: optional
 Build-Depends: debhelper-compat (= 13),
                libkf6windowsystem-dev,
-               liblxqt2-dev (>= 2.0.0),
+               liblxqt2-dev (>= 2.1.0),
                libx11-dev,
-               qt6-svg-dev
+               qt6-svg-dev (>= 6.6.0)
 Standards-Version: 4.7.0
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/lxqt-openssh-askpass-packaging
 Vcs-Git: https://git.lubuntu.me/Lubuntu/lxqt-openssh-askpass-packaging.git
@@ -58,6 +58,28 @@ Multi-Arch: foreign
 Section: localization
 Depends: qt6-translations-l10n, ${misc:Depends}
 Description: Language package for lxqt-openssh-askpass
- The l10n files for lxqt-openssh-askpass.
+ This module handles openssh security password access for LXQt. The openssh
+ askpass module, will perform security test over scale access privileges.
+ .
+ The LXQt modules are desktop independent tools, and operate as daemons for the
+ local user for desktop specific operations.
+ .
+ LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt
+ technologies, ships several core desktop components, all of which are
+ optional:
+ .
+  * Panel
+  * Desktop
+  * Application launcher
+  * Settings center
+  * Session handler
+  * Polkit handler
+  * SSH password access (this)
+  * Display manager handler
+ .
+ These components perform similar actions to those available in other
+ desktop environments, and their names are self-descriptive. They are usually
+ not launched by hand but automatically, when choosing a LXQt session in the
+ Display Manager.
  .
  This package contains the l10n files needed by lxqt-openssh-askpass.
